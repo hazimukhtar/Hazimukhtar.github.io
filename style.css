@@ -55,8 +55,8 @@ html body
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 1365px;
-  height: 50.8rem ;
+  /* max-width: 1365px; */
+  height: 35rem;
 
 }
 #tPhoto
@@ -162,6 +162,7 @@ h2
 .extra, #extra
 {
   margin-left: 4.5rem;
+
 }
 
 #graham
@@ -179,11 +180,27 @@ h2
   margin-left: 1rem;
   mix-blend-mode: multiply;
 }
+#fayvorSquare
+{
+  top: 0;
+  width: 230px;
+  height: 230px;
+  margin-left: 1rem;
+  mix-blend-mode: multiply;
+}
+#lendingClub
+{
+  top: 0;
+  width: 230px;
+  height: 210px;
+  margin-left: 1rem;
+  mix-blend-mode: multiply;
+}
 #Esports
 {
   top: 0;
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   margin-left: 1rem;
   mix-blend-mode: multiply;
 }
@@ -197,30 +214,18 @@ h2
   height: 204px;
 
 }
-#EUSA
+#SKKU
 {
   margin-left: 2rem;
   width: 200px;
   height: 204px;
 }
-#nol
-{
-  margin-left: 2rem;
-  width: 200px;
-  height: 210px;
-}
-#Sevilla
-{
-  margin-top: 1rem;
-  width: 200px;
-  height: 200px;
-  margin-left: 2rem;
-}
 
 #hackNC
 {
-  width: 237px;
+  width: 230px;
   height: 120px;
+  margin-left: 1rem;
 }
 
 #mainPhoto

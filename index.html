@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <script src="bundle.js"></script>
-  <title>HAM</title>
+  <title>Hazim Asif Mukhtar</title>
 </head>
 
 <body>
@@ -18,12 +18,12 @@
 
   <div class="navBar">
     <a href="#bg">Background</a>
-    <a href="#workLocation">Work Experience</a>
+    <!-- <a href="#workLocation">Work Experience</a> -->
     <a href="#projectLocation">Projects</a>
     <a href="#extracurricularsLocation">Extracurriculars</a>
   </div>
   <div class="image">
-    <img id="topPhoto" src="Assets/NOLS.jpg" alt="NOLSPhoto">
+    <img id="topPhoto" src="Assets/SingaporePana.jpg" alt="NOLSPhoto">
     <!-- <img id = "tPhoto" src="adv.jpg" alt="advPhoto"> -->
   </div>
   <br><br>
@@ -49,18 +49,21 @@
             <h3 id="Education" class="subContentTitle">Univeristy of North Carolina at Chapel Hill</h3>
             <h4 class="Education">BS Computer Science</h4>
             <p class="Education">
-
+              I pursued a Bachelor's of Science in Computer Science from UNC - Chapel Hill.  The curriculum included courses in Java, C, algorithms, and data structures.  For electives, I pursued courses in
+              Big Data, Data Compression, Databases, Software Engineering, and Operating Systems.
             </p>
           </div>
         </div>
-
+        <br><br>
 
         <div class="contentBox">
-          <img id="Sevilla" src="Assets/SKKU.png" alt="Sevilla Logo" style="top:0%;">
+          <img id="SKKU" src="Assets/SKKU.png" alt="Sevilla Logo" style="top:0%;">
           <div class="content">
             <h3 id="Education" class="subContentTitle">Sungkyunkwan University - Seoul, SK </h3>
             <h4 class="Education">Exchange Student Summer 2018</h4>
-            <p class="Education">Studied information and data science at Sungkyunkwan Univeristy in Seoul South Korea.
+            <p class="Education">
+              I studied abroad at Sungkyunkwan University in Seoul, South Korea under their Information Science department.  I had taken two courses, How the Mind Works: A Big Data Approach, and
+              Big Data: Technologies and Applications with professrs from Carnegie Mellon and Drexel respectively.
             </p> <br>
           </div>
         </div>
@@ -69,138 +72,111 @@
     </div>
   </div>
 
-
-
-
-  <br id="workLocation"><br><br>
-  <!-- <br id = "workLocation"> <br> -->
-  <!-- <div class="color">
+<br id="projectLocation"><br><br>
+  <div class="color">
     <br>
-    <div class="workExperience">
-      <h1 id="work"><span class="color">Work Experience</span></h1>
+
+    <div class="Projects">
+      <h1><span class="color">Projects</span></h1>
       <br>
 
-      <div class="box">
-        <div class="contentBox">
-          <img id="graham" src="Assets/graham.png" alt="gcm Logo" style="top:0%;">
-          <div class="content">
-            <h3 id="workContent"
-            class="subContentTitle">Graham Capital Management</h3>
-            <h4 class="workContent">Quantitative Research Analyst</h4>
-            <p class="workContent">Programmed in Python (Pandas, Numpy) for a leading hedge fund in their quantitative research department <br> Converted SEC filings of competing fund into dataset that allowed fund management to compare sector exposures and track relative changes
-              over 16 quarters. Final results were directed to firm president <br> Using Equal Volatility, Minimum Variance, Maximum Principal Component, and Equal Risk Contribution portfolio optimization techniques, created 30-year benchmark indices
-              in equity, commodity, fixed income, and foreign exchange market sectors</p> <br>
-          </div>
+      <p id="gitHub">
+        Github Link to all my projects
+      </p>
+      <div class="contentBox">
+        <img id="hackNC" src="Assets/hackNC.png" alt="hackNC Logo" style="top:0%;">
+        <div class="content">
+          <h3 id="extra" class="subContentTitle">Shoe Scraper (In Progress)</h3>
+          <h4 class="extra">JavaScript, Node.js, Cheerio.js, Puppeteer.js, Chromium.js, request.js, browserify.js</h4>
+          <p class="extra">
+            Created a webscraper using javascript that will scrape the reddit.com/r/sneakerdeal subreddit.  It will pull the information from the subreddit
+            and repopulate all of the sneakers and their respective sizes, colors, and types onto a more complete website.
+          </p>
+        </div>
+      </div>
+
+        <br><br>
+
+      <div class="contentBox">
+        <img id="lendingClub" src="Assets/lendingClub.jpeg" alt="CS Logo" style="top:0%;">
+        <div class="content">
+          <h3 id="extra" class="subContentTitle">Lending Club Loans</h3>
+          <h4 class="extra">Java, Hadoop MapReduce, Python</h4>
+          <p class="extra">
+            We had used the Lending Club loan dataset provided by the company to analyze the types of people that would be approved or rejected from a loan along with who were the people trying to receive a loan.
+            The dataset had 2.23 million entries with 23 features.  We had used Hadoop MapReduce on the data along with two Spark programs in order to create our report on our dataset.
+          </p>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="contentBox">
+        <img id="carolina" src="Assets/CSLogo.png" alt="CS Logo" style="top:0%;">
+        <div class="content">
+          <h3 id="extra" class="subContentTitle">Squash Player Webscraper</h3>
+          <h4 class="extra">Python(Beautiful Soup, Selenium)</h4>
+          <p class="extra">
+            I created a webscraper that will scrape the US Squash database and collect every players name, contact information, where they are from and who they have played for.
+            I then created a second scraper that scrapes the UNC database and then crossmatched the memebers of the US Squash database with the UNC database to find hidden squash
+            players at the university.
+          </p>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="contentBox">
+        <img id="fayvorSquare" src="Assets/fayvorSquare.png" alt="CS Logo" style="top:0%;">
+        <div class="content">
+          <h3 id="extra" class="subContentTitle">Fayvor.io</h3>
+          <h4 class="extra">Python, PHP, Javascript, HTML, CSS, AWS(EC2, CodeCommit, RDS), mySQL</h4>
+          <p class="extra">
+            We created the basis for the startup Fayvor.  We turned their pencil and paper business into an online one by hosting their server and services on an EC2 server using AWS.
+            All of the code was stored on CodeCommit with the database being set up using RDS.  Then we created python scripts that would run on their website that would take the information
+            inside google sheets linked to surveys.  Each survey response would be added to our decision tree mathcing algorithm to determine the best possible match between a caretaker and a
+            client to ensure the best service.
+          </p>
+        </div>
+      </div>
+
+    <br><br>
+
+      <div class="contentBox">
+        <img id="carolina" src="Assets/CSLogo.png" alt="CS Logo" style="top:0%;">
+        <div class="content">
+          <h3 id="extra" class="subContentTitle">Plants Seed Data Science Project</h3>
+          <h4 class="extra">Python, Watson Analytics</h4>
+          <p class="extra">
+            We used python sklearn and pandas libraries to evaluate each algorithm on a plant seed dataset to determine their effectiveness on determining certain features of the plants.  Then we ran the same dataset through the IBM Watson Analytics to determine
+            the accurate of Watson.  We compared the results and presented them as a capstone to our semester abroad at SKKU.
+          </p>
+        </div>
+      </div>
+
+        <br><br>
+
+      <div class="contentBox">
+        <img id="carolina" src="Assets/CSLogo.png" alt="CS Logo" style="top:0%;">
+        <div class="content">
+          <h3 id="extra" class="subContentTitle">H3 Calorie Counter</h3>
+          <h4 class="extra">Javascript, HTML, CSS, Node.js</h4>
+          <p class="extra">
+            We created a web application
+            Created a web application to track calories and nutrients of a person to reach daily goals
+            Changed the avatar based on achievements, goals reached, and consistency
+          </p>
         </div>
       </div>
     </div>
-  </div> -->
-
-  <br id="projectLocation"><br><br><br>
-
-  <div class="Projects">
-    <h1><span>Projects</span></h1>
-    <br>
-
-    <p id="gitHub">
-      Github Link to all my projects
-    </p>
-    <div class="contentBox">
-      <img id="hackNC" src="Assets/hackNC.png" alt="hackNC Logo" style="top:0%;">
-      <div class="content">
-        <h3 id="extra" class="subContentTitle">Shoe Scraper</h3>
-        <h4 class="extra">JavaScript, Node.js, Cheerio.js, Puppeteer.js, Chromium.js request.js, browserify.js</h4>
-        <p class="extra">
-          Created a webscraper using javascript that will scrape the reddit.com/r/sneakerdeal subreddit.  It will pull the information from the subreddit
-          and repopulate all of the sneakers and their respective sizes, colors, and types onto a more complete website.
-        </p>
-      </div>
-    </div>
-
-      <br><br>
-
-    <div class="contentBox">
-      <img id="carolina" src="Assets/CSLogo.png" alt="CS Logo" style="top:0%;">
-      <div class="content">
-        <h3 id="extra" class="subContentTitle">Lending Club Loans</h3>
-        <h4 class="extra">Java, Hadoop MapReduce, Python</h4>
-        <p class="extra">
-          Created report.
-        </p>
-      </div>
-    </div>
-
     <br><br>
-
-    <div class="contentBox">
-      <img id="carolina" src="Assets/CSLogo.png" alt="CS Logo" style="top:0%;">
-      <div class="content">
-        <h3 id="extra" class="subContentTitle">Squash Player Webscraper</h3>
-        <h4 class="extra">Python(Beautiful Soup, Selenium)</h4>
-        <p class="extra">
-          I created a webscraper that will scrape the US Squash database and collect every players name, contact information, where they are from and who they have played for.
-          I then created a second scraper that scrapes the UNC database and then crossmatched the memebers of the US Squash database with the UNC database to find hidden squash
-          players at the university.
-        </p>
-      </div>
-    </div>
-
-    <br><br>
-
-    <div class="contentBox">
-      <img id="carolina" src="Assets/CSLogo.png" alt="CS Logo" style="top:0%;">
-      <div class="content">
-        <h3 id="extra" class="subContentTitle">Fayvor.io</h3>
-        <h4 class="extra">Python, PHP, Javascript, HTML, CSS, AWS(EC2, CodeCommit, RDS), mySQL</h4>
-        <p class="extra">
-          We created the basis for the startup Fayvor.  We turned their pencil and paper business into an online one by hosting their server and services on an EC2 server using AWS.
-          All of the code was stored on CodeCommit with the database being set up using RDS.  Then we created python scripts that would run on their website that would take the information
-          inside google sheets linked to surveys.  Each survey response would be added to our decision tree mathcing algorithm to determine the best possible match between a caretaker and a
-          client to ensure the best service.
-        </p>
-      </div>
-    </div>
-
-  <br><br>
-
-    <div class="contentBox">
-      <img id="carolina" src="Assets/CSLogo.png" alt="CS Logo" style="top:0%;">
-      <div class="content">
-        <h3 id="extra" class="subContentTitle">Plants Seed Data Science Project</h3>
-        <h4 class="extra">Python, Watson Analytics</h4>
-        <p class="extra">
-          Created report.
-        </p>
-      </div>
-    </div>
-
-      <br><br>
-
-    <div class="contentBox">
-      <img id="carolina" src="Assets/CSLogo.png" alt="CS Logo" style="top:0%;">
-      <div class="content">
-        <h3 id="extra" class="subContentTitle">H3 Calorie Counter</h3>
-        <h4 class="extra">Javascript, HTML, CSS, Node.js</h4>
-        <p class="extra">
-          We created a web application
-          Created a web application to track calories and nutrients of a person to reach daily goals
-          Changed the avatar based on achievements, goals reached, and consistency
-        </p>
-      </div>
-    </div>
-
-
-
-
-
   </div>
 
   <br id="extracurricularsLocation"><br>
 
-  <div class="color">
-    <br><br>
+
     <div class="Extracurriculars">
-      <h1><span class="color">Extracurriculars</span></h1>
+      <h1><span>Extracurriculars</span></h1>
       <br>
 
       <div class="contentBox">
@@ -222,7 +198,10 @@
           <h3 id="extra" class="subContentTitle">UNC Esports</h3>
           <h4 class="extra">Treasuer</h4>
           <p class="extra">
-            Facilitated sponsorships for our main events on campus<br>
+            UNC-CH Esports Club is one of the fastest growing clubs on campus due to the popularity of Esports as a medium and more attention brought to it by the media.  There are over 10 video games represented with their respective genres.  As treasurer,
+            I gained sponsorships for our largest event of the year, Gamefest.  I implemented a due system, fundraising, benefit nights, and Facebook ads in order to increase membership within the club and start bringing in revenue.  As a result,
+            we were the most profitable we have ever been with our officers not having to put money out of pocket for their respective games.
+            <br>
           </p>
         </div>
       </div>
@@ -230,55 +209,57 @@
 
     </div>
     <br><br><br>
-  </div>
 
 
 
 
-  <br><br>
-  <div class="CoursesTaken">
-    <h1><span>Courses Taken</span></h1>
-    <br>
 
-    <div class="row">
-      <div class="column">
-        <h4 class="extra">Computer Science</h4>
-        <p class="extra">
+  <div class="color">
+    <br><br>
 
-          COMP 401 Advanced Java <br>
-          COMP 410 Data Structures and Algorithms <br>
-          COMP 411 Computer Organization <br>
-          COMP 426 Modern Web Programming <br>
-          COMP 455: Models of Language and Computation <br>
-          COMP 521: Files and Databases <br>
-          COMP 523 Software Engineering <br>
-          COMP 530 Operating Systems <br>
-          COMP 550 Algorithms <br>
-          COMP 590 Data Compression <br>
-          COMP 590 Big Data <br>
-        </p>
+    <div class="CoursesTaken">
+      <h1><span class="color">Courses Taken</span></h1>
+      <br>
+
+      <div class="row">
+        <div class="column">
+          <h4 class="extra">Computer Science</h4>
+          <p class="extra">
+
+            COMP 401: Advanced Java <br>
+            COMP 410: Data Structures and Algorithms <br>
+            COMP 411: Computer Organization <br>
+            COMP 426: Modern Web Programming <br>
+            COMP 455: Models of Language and Computation <br>
+            COMP 521: Files and Databases <br>
+            COMP 523: Software Engineering <br>
+            COMP 530: Operating Systems <br>
+            COMP 550: Algorithms <br>
+            COMP 590: Data Compression <br>
+            COMP 590: Big Data <br>
+          </p>
+        </div>
+        <div class="column">
+          <h4 class="extra">Mathematics</h4>
+          <p class="extra">
+
+            MATH 233: Multi-Variate Calculus <br>
+            MATH 381: Discrete Mathematics <br>
+            STOR 435/MATH 533: Introduction to Probability  <br>
+            MATH 547: Linear Algebra with Applications <br>
+
+          </p>
+        </div>
       </div>
-      <div class="column">
-        <h4 class="extra">Mathematics</h4>
-        <p class="extra">
-
-          MATH 233 Multi-Variate Calculus <br>
-          MATH 381 Discrete  <br>
-          STOR 435/ MATH 533: Intro to Probability  <br>
-          MATH 547 Linear Algebra <br>
-
-        </p>
-      </div>
+      <!-- <br> -->
     </div>
-    <!-- <br> -->
+      <br><br><br>
   </div>
   <!-- </div> -->
 
   </div>
-  <br><br><br>
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <br>
+
 
 </div>
 </body>
