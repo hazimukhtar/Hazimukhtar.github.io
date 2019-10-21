@@ -156,19 +156,12 @@ h2
 
 }
 
-#graham
-{
-  top: 0;
-  width: 304px;
-  height: 166px;
-  mix-blend-mode: multiply;
-}
 #carolina
 {
   top: 0;
   width: 230px;
   height: 166px;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   mix-blend-mode: multiply;
 }
 #fayvorSquare
@@ -176,7 +169,7 @@ h2
   top: 0;
   width: 230px;
   height: 230px;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   mix-blend-mode: multiply;
 }
 #lendingClub
@@ -184,7 +177,7 @@ h2
   top: 0px;
   width: 230px;
   height: 210px;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   mix-blend-mode: multiply;
 }
 #Esports
@@ -193,8 +186,8 @@ h2
   width: 198px;
   height: 198px;
   margin-top: 2rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   mix-blend-mode: multiply;
 }
 #USSquash
@@ -202,8 +195,8 @@ h2
   top: 0;
   width: 198px;
   height: 198px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   mix-blend-mode: multiply;
 }
 #Watson
@@ -211,7 +204,7 @@ h2
   top: 0;
   width: 230px;
   height: 175px;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   mix-blend-mode: multiply;
 }
 
@@ -219,17 +212,18 @@ h2
 {
 
   /* left: 80%; */
-  margin-left: 2rem;
-  width: 200px;
+  margin-left: 1rem;
+  width: 198px;
   height: 204px;
+  margin-right: 1rem;
 
 }
 #SKKU
 {
-  margin-left: 2rem;
-  width: 184px;
+  margin-left: 1.5rem;
+  width: 182px;
   height: 187px;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 #hackNC
@@ -237,7 +231,7 @@ h2
   margin-top: 1.5rem;
   width: 230px;
   height: 120px;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 #mainPhoto
@@ -255,17 +249,6 @@ h2
 {
   display: flex;
   justify-content: center;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-}
-
-.column
-{
-
-}
-#BUSI
-{
-  /* margin-right: 6.6rem; */
 }
 
 .coursesTaken
