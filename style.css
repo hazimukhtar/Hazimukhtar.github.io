@@ -108,11 +108,6 @@ h2
   padding: 0;
 }
 
-.box
-{
-
-}
-
 .contentBox
 {
 
@@ -197,6 +192,14 @@ h2
   mix-blend-mode: multiply;
 }
 #Esports
+{
+  top: 0;
+  width: 230px;
+  height: 230px;
+  margin-left: 1rem;
+  mix-blend-mode: multiply;
+}
+#USSquash
 {
   top: 0;
   width: 230px;
